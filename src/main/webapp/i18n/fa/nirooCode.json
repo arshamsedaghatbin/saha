@@ -1,0 +1,26 @@
+{
+  "sahaApp": {
+    "nirooCode": {
+      "home": {
+        "title": "Niroo Codes",
+        "createLabel": "Create a new Niroo Code",
+        "createOrEditLabel": "Create or edit a Niroo Code",
+        "notFound": "No Niroo Codes found"
+      },
+      "created": "A new Niroo Code is created with identifier {{ param }}",
+      "updated": "A Niroo Code is updated with identifier {{ param }}",
+      "deleted": "A Niroo Code is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Niroo Code {{ id }}?"
+      },
+      "detail": {
+        "title": "Niroo Code"
+      },
+      "name": "Name",
+      "code": "Code",
+      "yeganCode": "Yegan Code",
+      "yegan": "Yegan",
+      "karbar": "Karbar"
+    }
+  }
+}

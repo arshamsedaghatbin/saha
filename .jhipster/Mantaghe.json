@@ -1,0 +1,28 @@
+{
+  "name": "Mantaghe",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "yegan",
+      "otherEntityRelationshipName": "mantaghe",
+      "relationshipName": "mantaghe"
+    }
+  ],
+  "changelogDate": "20201127135018",
+  "entityTableName": "mantaghe",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

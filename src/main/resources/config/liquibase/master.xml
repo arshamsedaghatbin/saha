@@ -14,7 +14,28 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127133918_added_entity_YeganCode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134018_added_entity_Karbar.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134118_added_entity_Semat.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134218_added_entity_Morkhasi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134318_added_entity_Dore.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134418_added_entity_Negahbani.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134518_added_entity_BargeMamooriat.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134618_added_entity_Daraje.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134718_added_entity_YeganType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134818_added_entity_NirooCode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134918_added_entity_Yegan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127135018_added_entity_Mantaghe.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127135118_added_entity_Ostan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127135218_added_entity_Shahr.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20201127133918_added_entity_constraints_YeganCode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134018_added_entity_constraints_Karbar.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134218_added_entity_constraints_Morkhasi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134318_added_entity_constraints_Dore.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134418_added_entity_constraints_Negahbani.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134518_added_entity_constraints_BargeMamooriat.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201127134918_added_entity_constraints_Yegan.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

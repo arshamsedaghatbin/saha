@@ -1,0 +1,26 @@
+{
+  "sahaApp": {
+    "yeganCode": {
+      "home": {
+        "title": "Yegan Codes",
+        "createLabel": "Create a new Yegan Code",
+        "createOrEditLabel": "Create or edit a Yegan Code",
+        "notFound": "No Yegan Codes found"
+      },
+      "created": "A new Yegan Code is created with identifier {{ param }}",
+      "updated": "A Yegan Code is updated with identifier {{ param }}",
+      "deleted": "A Yegan Code is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Yegan Code {{ id }}?"
+      },
+      "detail": {
+        "title": "Yegan Code"
+      },
+      "name": "Name",
+      "code": "Code",
+      "yegan": "Yegan",
+      "karbar": "Karbar",
+      "nirooCode": "Niroo Code"
+    }
+  }
+}

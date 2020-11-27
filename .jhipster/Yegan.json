@@ -1,0 +1,80 @@
+{
+  "name": "Yegan",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "yegan",
+      "otherEntityRelationshipName": "yegan",
+      "relationshipName": "zirYegan"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "karbar",
+      "otherEntityRelationshipName": "yegan",
+      "relationshipName": "karbar"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "nirooCode",
+      "otherEntityRelationshipName": "yegan",
+      "relationshipName": "nirooCode",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "yegan",
+      "otherEntityRelationshipName": "zirYegan",
+      "relationshipName": "yegan",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "shahr",
+      "otherEntityRelationshipName": "yegan",
+      "relationshipName": "shahr",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "mantaghe",
+      "otherEntityRelationshipName": "mantaghe",
+      "relationshipName": "mantaghe",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "ostan",
+      "otherEntityRelationshipName": "ostan",
+      "relationshipName": "ostan",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "yeganType",
+      "otherEntityRelationshipName": "yegan",
+      "relationshipName": "yeganType",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201127134918",
+  "entityTableName": "yegan",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

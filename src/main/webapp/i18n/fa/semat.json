@@ -1,0 +1,23 @@
+{
+  "sahaApp": {
+    "semat": {
+      "home": {
+        "title": "Semats",
+        "createLabel": "Create a new Semat",
+        "createOrEditLabel": "Create or edit a Semat",
+        "notFound": "No Semats found"
+      },
+      "created": "A new Semat is created with identifier {{ param }}",
+      "updated": "A Semat is updated with identifier {{ param }}",
+      "deleted": "A Semat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Semat {{ id }}?"
+      },
+      "detail": {
+        "title": "Semat"
+      },
+      "onvanShoghli": "Onvan Shoghli",
+      "karbar": "Karbar"
+    }
+  }
+}

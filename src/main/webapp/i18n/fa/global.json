@@ -7,6 +7,20 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "ماهیت ها",
+        "yeganCode": "Yegan Code",
+        "karbar": "Karbar",
+        "semat": "Semat",
+        "morkhasi": "Morkhasi",
+        "dore": "Dore",
+        "negahbani": "Negahbani",
+        "bargeMamooriat": "Barge Mamooriat",
+        "daraje": "Daraje",
+        "yeganType": "Yegan Type",
+        "nirooCode": "Niroo Code",
+        "yegan": "Yegan",
+        "mantaghe": "Mantaghe",
+        "ostan": "Ostan",
+        "shahr": "Shahr",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

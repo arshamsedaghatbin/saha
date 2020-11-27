@@ -1,0 +1,96 @@
+
+
+
+entity YeganCode{
+	name String,
+    code String
+}
+
+entity Karbar{
+/* login kone*/
+	name String,
+    onvanShoghli String,
+    codePerseneli String,
+    bezaneshate Boolean,
+    sazmani Boolean,
+    tarikhBazneshastegi Instant
+}
+
+entity Semat{
+	onvanShoghli String
+}
+entity Morkhasi{
+	begin Instant,
+    end Instant
+}
+entity Dore{
+	begin Instant,
+    end Instant
+}
+
+entity Negahbani{
+	begin Instant,
+    end Instant
+}
+entity BargeMamooriat{
+	tarikhSodoor Instant
+}
+
+entity Daraje{
+	name String,
+    description String
+}
+
+entity YeganType{
+	name String
+}
+entity NirooCode{
+    name String,
+    code String
+}
+
+entity Yegan{
+/* login kone*/
+   name String,
+   code String
+}
+
+entity Mantaghe{
+   name String 
+}
+
+entity Ostan{
+	name String
+}
+
+entity Shahr{
+	name String,
+    zaribAboHava Integer,
+    zaribTashiat Integer,
+    masafatTaMarkaz Integer
+}
+
+
+relationship OneToMany {
+	NirooCode{yeganCode} to YeganCode,
+    NirooCode{yegan} to Yegan,
+    Yegan {zirYegan} to Yegan,
+    Karbar {morkhasi} to Morkhasi,
+    Karbar {dore} to Dore,
+    Karbar {negahbani} to Negahbani,
+    Karbar {bargeMamoorit} to BargeMamooriat,
+    Yegan {karbar} to Karbar,
+    YeganCode{karbar} to Karbar,
+    Shahr{yegan} to Yegan,
+    Mantaghe{mantaghe} to Yegan,
+    Ostan{ostan} to Yegan,
+    Daraje{karbar} to Karbar,
+    NirooCode{karbar} to Karbar,
+    YeganType{yegan} to Yegan,
+    Semat{karbar} to Karbar
+}
+relationship OneToOne {
+  YeganCode {yegan} to Yegan
+}
+
+

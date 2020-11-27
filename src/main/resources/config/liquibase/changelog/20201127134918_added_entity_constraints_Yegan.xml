@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Yegan.
+    -->
+    <changeSet id="20201127134918-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="niroo_code_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_niroo_code_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="niroo_code"/>
+
+        <addForeignKeyConstraint baseColumnNames="yegan_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_yegan_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="yegan"/>
+
+        <addForeignKeyConstraint baseColumnNames="shahr_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_shahr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="shahr"/>
+
+        <addForeignKeyConstraint baseColumnNames="mantaghe_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_mantaghe_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="mantaghe"/>
+
+        <addForeignKeyConstraint baseColumnNames="ostan_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_ostan_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ostan"/>
+
+        <addForeignKeyConstraint baseColumnNames="yegan_type_id"
+                                 baseTableName="yegan"
+                                 constraintName="fk_yegan_yegan_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="yegan_type"/>
+
+    </changeSet>
+</databaseChangeLog>

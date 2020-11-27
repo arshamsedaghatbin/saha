@@ -1,0 +1,24 @@
+{
+  "sahaApp": {
+    "dore": {
+      "home": {
+        "title": "Dores",
+        "createLabel": "Create a new Dore",
+        "createOrEditLabel": "Create or edit a Dore",
+        "notFound": "No Dores found"
+      },
+      "created": "A new Dore is created with identifier {{ param }}",
+      "updated": "A Dore is updated with identifier {{ param }}",
+      "deleted": "A Dore is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dore {{ id }}?"
+      },
+      "detail": {
+        "title": "Dore"
+      },
+      "begin": "Begin",
+      "end": "End",
+      "karbar": "Karbar"
+    }
+  }
+}

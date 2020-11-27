@@ -1,0 +1,24 @@
+{
+  "sahaApp": {
+    "daraje": {
+      "home": {
+        "title": "Darajes",
+        "createLabel": "Create a new Daraje",
+        "createOrEditLabel": "Create or edit a Daraje",
+        "notFound": "No Darajes found"
+      },
+      "created": "A new Daraje is created with identifier {{ param }}",
+      "updated": "A Daraje is updated with identifier {{ param }}",
+      "deleted": "A Daraje is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Daraje {{ id }}?"
+      },
+      "detail": {
+        "title": "Daraje"
+      },
+      "name": "Name",
+      "description": "Description",
+      "karbar": "Karbar"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sahaApp": {
+    "yeganType": {
+      "home": {
+        "title": "Yegan Types",
+        "createLabel": "Create a new Yegan Type",
+        "createOrEditLabel": "Create or edit a Yegan Type",
+        "notFound": "No Yegan Types found"
+      },
+      "created": "A new Yegan Type is created with identifier {{ param }}",
+      "updated": "A Yegan Type is updated with identifier {{ param }}",
+      "deleted": "A Yegan Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Yegan Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Yegan Type"
+      },
+      "name": "Name",
+      "yegan": "Yegan"
+    }
+  }
+}
