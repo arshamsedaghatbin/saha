@@ -1,0 +1,26 @@
+{
+  "sahaApp": {
+    "shahr": {
+      "home": {
+        "title": "Shahrs",
+        "createLabel": "Create a new Shahr",
+        "createOrEditLabel": "Create or edit a Shahr",
+        "notFound": "No Shahrs found"
+      },
+      "created": "A new Shahr is created with identifier {{ param }}",
+      "updated": "A Shahr is updated with identifier {{ param }}",
+      "deleted": "A Shahr is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Shahr {{ id }}?"
+      },
+      "detail": {
+        "title": "Shahr"
+      },
+      "name": "Name",
+      "zaribAboHava": "Zarib Abo Hava",
+      "zaribTashiat": "Zarib Tashiat",
+      "masafatTaMarkaz": "Masafat Ta Markaz",
+      "yegan": "Yegan"
+    }
+  }
+}

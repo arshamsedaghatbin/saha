@@ -1,0 +1,23 @@
+{
+  "sahaApp": {
+    "bargeMamooriat": {
+      "home": {
+        "title": "Barge Mamooriats",
+        "createLabel": "Create a new Barge Mamooriat",
+        "createOrEditLabel": "Create or edit a Barge Mamooriat",
+        "notFound": "No Barge Mamooriats found"
+      },
+      "created": "A new Barge Mamooriat is created with identifier {{ param }}",
+      "updated": "A Barge Mamooriat is updated with identifier {{ param }}",
+      "deleted": "A Barge Mamooriat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Barge Mamooriat {{ id }}?"
+      },
+      "detail": {
+        "title": "Barge Mamooriat"
+      },
+      "tarikhSodoor": "Tarikh Sodoor",
+      "karbar": "Karbar"
+    }
+  }
+}

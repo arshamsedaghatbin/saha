@@ -1,0 +1,32 @@
+{
+  "name": "Daraje",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "karbar",
+      "otherEntityRelationshipName": "daraje",
+      "relationshipName": "karbar"
+    }
+  ],
+  "changelogDate": "20201127134618",
+  "entityTableName": "daraje",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

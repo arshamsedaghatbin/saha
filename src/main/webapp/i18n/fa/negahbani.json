@@ -1,0 +1,24 @@
+{
+  "sahaApp": {
+    "negahbani": {
+      "home": {
+        "title": "Negahbanis",
+        "createLabel": "Create a new Negahbani",
+        "createOrEditLabel": "Create or edit a Negahbani",
+        "notFound": "No Negahbanis found"
+      },
+      "created": "A new Negahbani is created with identifier {{ param }}",
+      "updated": "A Negahbani is updated with identifier {{ param }}",
+      "deleted": "A Negahbani is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Negahbani {{ id }}?"
+      },
+      "detail": {
+        "title": "Negahbani"
+      },
+      "begin": "Begin",
+      "end": "End",
+      "karbar": "Karbar"
+    }
+  }
+}

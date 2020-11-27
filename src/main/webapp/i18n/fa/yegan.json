@@ -1,0 +1,31 @@
+{
+  "sahaApp": {
+    "yegan": {
+      "home": {
+        "title": "Yegans",
+        "createLabel": "Create a new Yegan",
+        "createOrEditLabel": "Create or edit a Yegan",
+        "notFound": "No Yegans found"
+      },
+      "created": "A new Yegan is created with identifier {{ param }}",
+      "updated": "A Yegan is updated with identifier {{ param }}",
+      "deleted": "A Yegan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Yegan {{ id }}?"
+      },
+      "detail": {
+        "title": "Yegan"
+      },
+      "name": "Name",
+      "code": "Code",
+      "zirYegan": "Zir Yegan",
+      "karbar": "Karbar",
+      "nirooCode": "Niroo Code",
+      "yegan": "Yegan",
+      "shahr": "Shahr",
+      "mantaghe": "Mantaghe",
+      "ostan": "Ostan",
+      "yeganType": "Yegan Type"
+    }
+  }
+}

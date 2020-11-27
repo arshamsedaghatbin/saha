@@ -1,0 +1,24 @@
+{
+  "sahaApp": {
+    "morkhasi": {
+      "home": {
+        "title": "Morkhasis",
+        "createLabel": "Create a new Morkhasi",
+        "createOrEditLabel": "Create or edit a Morkhasi",
+        "notFound": "No Morkhasis found"
+      },
+      "created": "A new Morkhasi is created with identifier {{ param }}",
+      "updated": "A Morkhasi is updated with identifier {{ param }}",
+      "deleted": "A Morkhasi is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Morkhasi {{ id }}?"
+      },
+      "detail": {
+        "title": "Morkhasi"
+      },
+      "begin": "Begin",
+      "end": "End",
+      "karbar": "Karbar"
+    }
+  }
+}

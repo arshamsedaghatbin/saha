@@ -1,0 +1,47 @@
+{
+  "name": "YeganCode",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "yegan",
+      "otherEntityRelationshipName": "yeganCode",
+      "relationshipName": "yegan",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "karbar",
+      "otherEntityRelationshipName": "yeganCode",
+      "relationshipName": "karbar"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "nirooCode",
+      "otherEntityRelationshipName": "yeganCode",
+      "relationshipName": "nirooCode",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201127133918",
+  "entityTableName": "yegan_code",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,23 @@
+{
+  "sahaApp": {
+    "mantaghe": {
+      "home": {
+        "title": "Mantaghes",
+        "createLabel": "Create a new Mantaghe",
+        "createOrEditLabel": "Create or edit a Mantaghe",
+        "notFound": "No Mantaghes found"
+      },
+      "created": "A new Mantaghe is created with identifier {{ param }}",
+      "updated": "A Mantaghe is updated with identifier {{ param }}",
+      "deleted": "A Mantaghe is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Mantaghe {{ id }}?"
+      },
+      "detail": {
+        "title": "Mantaghe"
+      },
+      "name": "Name",
+      "mantaghe": "Mantaghe"
+    }
+  }
+}

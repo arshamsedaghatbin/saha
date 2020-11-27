@@ -1,0 +1,23 @@
+{
+  "sahaApp": {
+    "ostan": {
+      "home": {
+        "title": "Ostans",
+        "createLabel": "Create a new Ostan",
+        "createOrEditLabel": "Create or edit a Ostan",
+        "notFound": "No Ostans found"
+      },
+      "created": "A new Ostan is created with identifier {{ param }}",
+      "updated": "A Ostan is updated with identifier {{ param }}",
+      "deleted": "A Ostan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ostan {{ id }}?"
+      },
+      "detail": {
+        "title": "Ostan"
+      },
+      "name": "Name",
+      "ostan": "Ostan"
+    }
+  }
+}

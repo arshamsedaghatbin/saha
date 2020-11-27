@@ -1,0 +1,28 @@
+{
+  "name": "Ostan",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "yegan",
+      "otherEntityRelationshipName": "ostan",
+      "relationshipName": "ostan"
+    }
+  ],
+  "changelogDate": "20201127135118",
+  "entityTableName": "ostan",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

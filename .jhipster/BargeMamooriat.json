@@ -1,0 +1,29 @@
+{
+  "name": "BargeMamooriat",
+  "fields": [
+    {
+      "fieldName": "tarikhSodoor",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "karbar",
+      "otherEntityRelationshipName": "bargeMamoorit",
+      "relationshipName": "karbar",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201127134518",
+  "entityTableName": "barge_mamooriat",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

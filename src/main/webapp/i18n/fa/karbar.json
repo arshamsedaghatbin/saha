@@ -1,0 +1,36 @@
+{
+  "sahaApp": {
+    "karbar": {
+      "home": {
+        "title": "Karbars",
+        "createLabel": "Create a new Karbar",
+        "createOrEditLabel": "Create or edit a Karbar",
+        "notFound": "No Karbars found"
+      },
+      "created": "A new Karbar is created with identifier {{ param }}",
+      "updated": "A Karbar is updated with identifier {{ param }}",
+      "deleted": "A Karbar is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Karbar {{ id }}?"
+      },
+      "detail": {
+        "title": "Karbar"
+      },
+      "name": "Name",
+      "onvanShoghli": "Onvan Shoghli",
+      "codePerseneli": "Code Perseneli",
+      "bezaneshate": "Bezaneshate",
+      "sazmani": "Sazmani",
+      "tarikhBazneshastegi": "Tarikh Bazneshastegi",
+      "morkhasi": "Morkhasi",
+      "dore": "Dore",
+      "negahbani": "Negahbani",
+      "bargeMamoorit": "Barge Mamoorit",
+      "yegan": "Yegan",
+      "yeganCode": "Yegan Code",
+      "daraje": "Daraje",
+      "nirooCode": "Niroo Code",
+      "semat": "Semat"
+    }
+  }
+}
